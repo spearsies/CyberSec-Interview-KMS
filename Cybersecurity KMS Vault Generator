@@ -1,0 +1,155 @@
+# Python script to automatically generate the Obsidian vault structure based on the architectural plan. This implementation establishes a two-level "controlled hierarchy" to minimize cognitive load [1] and includes pre-configured templates for atomic notes, interview preparation, and technical laboratories.[2, 3]
+The vault is organized into the following key zones:
+10 - MOCs (Maps of Content): Centralized indices to navigate broad domains like Cloud Security or Networking.
+20 - Key Concepts: Atomic technical notes with standardized metadata for encryption and protocol security.[2, 4]
+30 - Interviews: A repository for STAR-method responses and technical Q&A, including networking fundamentals and cloud-native security.
+99 - Meta: A storage area for templates and automation scripts, such as MITRE ATT&CK parsers.
+
+import os
+# Define the vault structure
+VAULT_NAME = "Cybersecurity_KMS"
+FOLDERS =
+
+# Standardized templates
+TEMPLATES = {
+    "99 - Meta/Templates/Template - Technical Concept.md": """---
+type: concept
+tags: [theme/cybersecurity]
+status: idea
+created: {{date}}
+---
+
+# Concept: 
+
+## Overview
+Brief explanation of the technology or protocol.
+
+## Technical Details
+- Key mechanics:
+- Port/Protocol:
+- Security Considerations:
+
+## Related Links
+- [[10 - MOC - Home]]
+""",
+    "99 - Meta/Templates/Template - Interview Question.md": """---
+type: interview
+tags: [context/work, theme/cybersecurity]
+difficulty: medium
+status: unreviewed
+---
+
+# Question: 
+
+## Why it's asked
+Employers want to gauge:
+
+## Sample Response
+> 
+
+## Key Technical Talking Points
+- point 1
+- point 2
+
+## Related Concepts
+- [[Note Name]]
+""",
+    "10 - MOCs/00 - Home Dashboard.md": """---
+cssClasses: dashboard, max
+---
+
+# 🛡️ Cybersecurity KMS Dashboard
+
+## 🧭 Navigation
+- [[10 - MOC - Networking|Networking MOC]]
+-]
+- [[10 - MOC - Interviews|Interview Preparation Hub]]
+
+## 🛠️ Quick Actions
+- [[00 - Inbox|Process Inbox]]
+- [[40 - Laboratory|Open Lab Notes]]
+
+## 📈 Study Progress
+```dataview
+LIST FROM #type/study AND!"99 - Meta"
+WHERE status = "in-progress"
+```
+"""
+}
+
+# Core Interview Content based on research
+INTERVIEW_CONTENT = {
+    "30 - Interviews/Technical QA/Networking - 3-Way Handshake.md": """---
+type: interview
+tags: [theme/networking]
+difficulty: easy
+---
+
+# Describe the TCP 3-Way Handshake
+
+## Sample Response
+The TCP 3-way handshake is the process used to establish a reliable connection. It consists of:
+1. **SYN**: Client sends a synchronize packet to the server.
+2. **SYN-ACK**: Server responds with a synchronize-acknowledgment.
+3. **ACK**: Client sends an acknowledgment back.
+
+## Interview Tip
+Discuss connection-oriented communication and how it differs from UDP.[5]
+""",
+    "20 - Key Concepts/Networking/OSI Model.md": """---
+type: concept
+tags: [theme/networking]
+---
+
+# OSI Model
+
+| Layer | Name | Security Example |
+|---|---|---|
+| 7 | Application | WAF, SQLi Prevention |
+| 4 | Transport | TLS/SSL |
+| 3 | Network | IPsec, Firewalls |
+| 2 | Data Link | ARP Security |
+
+## Key Notes
+Understanding the OSI model is essential for mapping where specific vulnerabilities occur.[6, 5]
+""",
+    "20 - Key Concepts/Cryptography/Encryption Formulas.md": """---
+type: concept
+tags: [theme/crypto]
+---
+
+# Cryptographic Strength
+
+## Password Entropy
+Entropy ($E$) is calculated using the length ($L$) and character set range ($R$):
+$$E = L \times \log_2(R)$$
+
+## Risk Assessment
+General risk calculation:
+$$Risk = Likelihood \times Impact$$ [6]
+"""
+}
+
+def create_vault():
+    if not os.path.exists(VAULT_NAME):
+        os.makedirs(VAULT_NAME)
+    
+    # Create Folders
+    for folder in FOLDERS:
+        path = os.path.join(VAULT_NAME, folder)
+        os.makedirs(path, exist_ok=True)
+    
+    # Create Templates
+    for file_path, content in TEMPLATES.items():
+        with open(os.path.join(VAULT_NAME, file_path), 'w') as f:
+            f.write(content)
+            
+    # Create Initial Content
+    for file_path, content in INTERVIEW_CONTENT.items():
+        with open(os.path.join(VAULT_NAME, file_path), 'w') as f:
+            f.write(content)
+
+    print(f"Success! Obsidian Vault '{VAULT_NAME}' created with directories and templates.")
+
+if __name__ == "__main__":
+    create_vault()
