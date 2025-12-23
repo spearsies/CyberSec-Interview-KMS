@@ -49,3 +49,24 @@ LIST
 FROM "01_Question_Bank"
 SORT file.mday DESC
 LIMIT 5
+
+📝 Metadata Standard for Dataview
+
+To ensure the Study Dashboard works correctly, every new note in your 01_Question_Bank must include the following YAML frontmatter at the very top of the file:
+
+---
+status: "To Study" # Options: "To Study", "Reviewing", "Mastered"
+domain: ["Analyst"] # Options: "Analyst", "Engineering", "Cloud", "AppSec"
+difficulty: 2 # Options: 1, 2, 3
+tags: [interview, security]
+last_reviewed: 2023-10-27
+---
+
+
+How to use:
+
+Copy the block above.
+
+Paste it at the top of your interview question notes.
+
+Watch the 00_Dashboard/Study_Dashboard.md update automatically!
