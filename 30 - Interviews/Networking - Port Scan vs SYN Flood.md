@@ -8,7 +8,7 @@ status: to-study
 confidence: 1
 last_reviewed:
 tags:
-  - flashcard
+  - review
   - interview-question
 ---
 

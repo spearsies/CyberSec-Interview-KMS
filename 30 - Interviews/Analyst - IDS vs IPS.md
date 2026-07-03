@@ -8,7 +8,7 @@ status: mastered
 confidence: 5
 last_reviewed: 2026-07-03
 tags:
-  - flashcard
+  - review
   - interview-question
 ---
 
