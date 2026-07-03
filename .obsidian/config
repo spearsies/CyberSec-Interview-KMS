@@ -1,0 +1,11 @@
+{
+  "theme": "obsidian",
+  "baseFontSize": 16,
+  "enabledPlugins": [
+    "dataview",
+    "obsidian-spaced-repetition",
+    "templater-obsidian",
+    "calendar",
+    "quickadd"
+  ]
+}

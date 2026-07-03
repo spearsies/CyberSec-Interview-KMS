@@ -1,17 +1,28 @@
 ---
-
-type: company-guide company: CrowdStrike tags:
-
-- company/crowdstrike
-- interview-prep
-
+type: company-guide
+company: CrowdStrike
+tags:
+  - company/crowdstrike
+  - interview-prep
 ---
-
+```
+---
+status: "To Study" # Options: "To Study", "Reviewing", "Mastered"
+domain: ["Analyst"] # Options: "Analyst", "Engineering", "Cloud", "AppSec"
+difficulty: 2 # Options: 1, 2, 3
+tags: [interview, security]
+last_reviewed: 2023-10-27
+---
+```
 # 🦅 CrowdStrike Interview Preparation Guide
 
 ## Company Overview
 
-**Founded:** 2011 **HQ:** Austin, Texas **Product:** Falcon Platform (cloud-native endpoint protection) **Focus:** Endpoint security, threat intelligence, incident response **Notable:** IPO 2019, Rapid growth, High-profile threat intel reports
+**Founded:** 2011
+**HQ:** Austin, Texas
+**Product:** Falcon Platform (cloud-native endpoint protection)
+**Focus:** Endpoint security, threat intelligence, incident response
+**Notable:** IPO 2019, Rapid growth, High-profile threat intel reports
 
 ---
 
@@ -20,41 +31,39 @@ type: company-guide company: CrowdStrike tags:
 ### Typical Timeline: 2-4 weeks
 
 1. **Recruiter Screen** (30 min)
-    
-    - Resume review
-    - Role expectations
-    - Salary discussion
-    - Basic background check
+   - Resume review
+   - Role expectations
+   - Salary discussion
+   - Basic background check
+
 2. **Technical Screen** (60 min)
-    
-    - SOC/IR roles: Scenario-based questions
-    - Engineering roles: Coding + systems design
-    - Heavy focus on: Falcon platform familiarity, EDR concepts, threat intel
+   - SOC/IR roles: Scenario-based questions
+   - Engineering roles: Coding + systems design
+   - Heavy focus on: Falcon platform familiarity, EDR concepts, threat intel
+
 3. **Technical Deep Dive** (60-90 min)
-    
-    - Hands-on technical assessment
-    - Live problem-solving
-    - Architecture discussions
-    - Tool demonstrations
+   - Hands-on technical assessment
+   - Live problem-solving
+   - Architecture discussions
+   - Tool demonstrations
+
 4. **Behavioral + Team Fit** (45-60 min)
-    
-    - Culture fit assessment
-    - Past incident examples
-    - Collaboration scenarios
-    - Questions about CrowdStrike's mission
+   - Culture fit assessment
+   - Past incident examples
+   - Collaboration scenarios
+   - Questions about CrowdStrike's mission
+
 5. **Final Round / Hiring Manager** (45-60 min)
-    
-    - Team-specific questions
-    - Technical leadership discussion
-    - Long-term goals
-    - Mutual fit assessment
+   - Team-specific questions
+   - Technical leadership discussion
+   - Long-term goals
+   - Mutual fit assessment
 
 ---
 
 ## What CrowdStrike Values
 
 ### Core Values:
-
 1. **Customer First**: Obsession with stopping breaches
 2. **Innovation**: Cloud-native, AI-driven approach
 3. **Integrity**: Ethical security practices
@@ -62,7 +71,6 @@ type: company-guide company: CrowdStrike tags:
 5. **Collaboration**: Adversary-focused teamwork
 
 ### Key Skills They Look For:
-
 - ✅ **EDR/Endpoint Security Expertise** - Falcon or competitor products
 - ✅ **MITRE ATT&CK Framework** - Deep understanding required
 - ✅ **Threat Intelligence** - IOA vs IOC distinction critical
@@ -77,33 +85,28 @@ type: company-guide company: CrowdStrike tags:
 ### Must-Know Concepts
 
 #### 1. EDR vs Traditional Antivirus
-
 **You WILL be asked this:**
-
 - Signature-based (AV) vs Behavior-based (EDR)
 - Prevention vs Detection vs Response
 - How EDR provides visibility into attack lifecycle
 - Why cloud-native matters
 
-**CrowdStrike Angle:** "Unlike traditional AV that relies on signatures, Falcon uses behavioral IOAs to detect novel threats in real-time without requiring updates, enabling us to stop zero-day attacks."
+**CrowdStrike Angle:**
+"Unlike traditional AV that relies on signatures, Falcon uses behavioral IOAs to detect novel threats in real-time without requiring updates, enabling us to stop zero-day attacks."
 
 #### 2. IOA vs IOC
-
 **Critical Distinction:**
-
 - **IOC** (Indicator of Compromise): Forensic artifacts (hashes, IPs, domains)
 - **IOA** (Indicator of Attack): Behavioral patterns (process injection, credential dumping)
 
-**Why CrowdStrike Emphasizes This:** Falcon focuses on IOAs because:
-
+**Why CrowdStrike Emphasizes This:**
+Falcon focuses on IOAs because:
 - Attackers change IOCs easily (new malware builds)
 - Behaviors are harder to change (process injection technique)
 - IOAs detect zero-day threats
 
 #### 3. Falcon Platform Architecture
-
 **Know these components:**
-
 - **Falcon Sensor**: Lightweight agent on endpoints
 - **Falcon Cloud**: AI-driven threat detection engine
 - **Falcon OverWatch**: Managed threat hunting service
@@ -111,9 +114,7 @@ type: company-guide company: CrowdStrike tags:
 - **Falcon Spotlight**: Vulnerability management
 
 #### 4. MITRE ATT&CK Integration
-
 **Be ready to:**
-
 - Map attacker behavior to tactics/techniques
 - Discuss specific techniques (T1055, T1003, T1071)
 - Explain how Falcon detects specific ATT&CK techniques
@@ -125,12 +126,12 @@ type: company-guide company: CrowdStrike tags:
 
 ### Technical Questions
 
-**Q: "Explain how an EDR detects a fileless malware attack."** **Strong Answer:**
-
+**Q: "Explain how an EDR detects a fileless malware attack."**
+**Strong Answer:**
 > "Fileless malware executes in memory without dropping traditional artifacts. An EDR like Falcon detects this through behavioral analysis - monitoring process creation, command-line parameters, memory injection techniques, and unusual PowerShell usage. For example, if PowerShell spawns from Excel with encoded commands accessing LSASS memory, that's behavioral IOA for credential theft, even without file-based IOCs."
 
-**Q: "Walk me through investigating a suspicious process in Falcon."** **Strong Answer:**
-
+**Q: "Walk me through investigating a suspicious process in Falcon."**
+**Strong Answer:**
 1. Process tree analysis (parent-child relationships)
 2. Command-line parameters inspection
 3. Network connections established
@@ -139,8 +140,9 @@ type: company-guide company: CrowdStrike tags:
 6. User context and privileges
 7. Timeline correlation with other events
 
-**Q: "How would you differentiate between legitimate admin activity and lateral movement?"** **Strong Answer:** Look for:
-
+**Q: "How would you differentiate between legitimate admin activity and lateral movement?"**
+**Strong Answer:**
+Look for:
 - Time of activity (admin tools at 3 AM?)
 - Source system (admin workstation vs regular user)
 - Frequency and pattern (automated vs manual)
@@ -152,7 +154,6 @@ type: company-guide company: CrowdStrike tags:
 **S: "You detect PowerShell execution with base64-encoded commands. Walk me through your investigation."**
 
 **Response Framework:**
-
 1. **Decode and analyze** the base64 string
 2. **Check parent process** - Is it unusual? (e.g., winword.exe → powershell.exe)
 3. **Review command content** - Obfuscation techniques? Web requests?
@@ -163,7 +164,6 @@ type: company-guide company: CrowdStrike tags:
 **S: "A user reports slow computer. You check Falcon and see high CPU on svchost.exe. Next steps?"**
 
 **Response Framework:**
-
 1. **Validate legitimacy** - Which svchost.exe instance? (Check PID, command line)
 2. **Network connections** - External communications?
 3. **Child processes** - Spawning suspicious children?
@@ -174,10 +174,11 @@ type: company-guide company: CrowdStrike tags:
 
 ### Behavioral Questions
 
-**Q: "Tell me about a time you had to explain a complex security concept to non-technical stakeholders."** Use STAR method - See [[Q_Behavioral_Incident-Under-Pressure]]
+**Q: "Tell me about a time you had to explain a complex security concept to non-technical stakeholders."**
+Use STAR method - See [[Q_Behavioral_Incident-Under-Pressure]]
 
-**Q: "Describe how you stay current with threat intelligence."** **Strong Answer:**
-
+**Q: "Describe how you stay current with threat intelligence."**
+**Strong Answer:**
 - Follow CrowdStrike blog and threat reports
 - Subscribe to: Krebs on Security, SANS ISC, Talos Intelligence
 - Participate in: Twitter #threatintel, Reddit r/netsec
@@ -189,9 +190,7 @@ type: company-guide company: CrowdStrike tags:
 ## CrowdStrike-Specific Knowledge
 
 ### Know These Adversaries
-
 CrowdStrike tracks nation-state actors with animal naming:
-
 - **BEAR** = Russia (FANCY BEAR, COZY BEAR)
 - **PANDA** = China
 - **KITTEN** = Iran
@@ -199,13 +198,11 @@ CrowdStrike tracks nation-state actors with animal naming:
 - **SPIDER** = eCrime groups
 
 **Be familiar with:**
-
 - FANCY BEAR (APT28) - Russia, military intelligence
 - WIZARD SPIDER - Ransomware (Ryuk, Conti)
 - Common TTPs associated with each
 
 ### Notable CrowdStrike Contributions
-
 - AttributionID incident response (Sony, Target)
 - Falcon platform (cloud-native EDR pioneer)
 - Threat intelligence reports (e.g., SUNSPOT analysis)
@@ -216,21 +213,18 @@ CrowdStrike tracks nation-state actors with animal naming:
 ## Questions to Ask CrowdStrike
 
 ### Technical/Role Questions:
-
 1. "What's the team's approach to balancing detection coverage with false positive management?"
 2. "How does the team contribute to CrowdStrike's threat intelligence?"
 3. "What's the typical career path for someone in this role?"
 4. "What new Falcon platform features is the team most excited about?"
 
 ### Culture Questions:
-
 1. "How does CrowdStrike support professional development and certifications?"
 2. "What does a typical on-call rotation look like?"
 3. "How does the team celebrate wins and handle incident stress?"
 4. "What makes someone successful in this role beyond technical skills?"
 
 ### Company Strategy:
-
 1. "How is CrowdStrike positioning itself against competitors like SentinelOne and Microsoft Defender?"
 2. "What emerging threats is CrowdStrike focusing on?"
 3. "How does CrowdStrike balance product innovation with customer needs?"
@@ -239,7 +233,14 @@ CrowdStrike tracks nation-state actors with animal naming:
 
 ## Red Flags to Avoid
 
-❌ Lack of familiarity with Falcon platform ❌ Not understanding EDR vs AV difference ❌ Can't articulate IOA vs IOC ❌ No knowledge of MITRE ATT&CK ❌ Unclear incident response methodology ❌ Not following threat intelligence sources ❌ Poor communication skills ❌ No questions for the interviewer
+❌ Lack of familiarity with Falcon platform
+❌ Not understanding EDR vs AV difference
+❌ Can't articulate IOA vs IOC
+❌ No knowledge of MITRE ATT&CK
+❌ Unclear incident response methodology
+❌ Not following threat intelligence sources
+❌ Poor communication skills
+❌ No questions for the interviewer
 
 ---
 
@@ -257,14 +258,12 @@ CrowdStrike tracks nation-state actors with animal naming:
 - [ ] Prepare questions for interviewer
 
 ### Day Before:
-
 - [ ] Review resume thoroughly (be ready to explain everything)
 - [ ] Test video/audio setup
 - [ ] Prepare notebook for notes
 - [ ] Get good sleep
 
 ### Day Of:
-
 - [ ] Arrive/login 10 minutes early
 - [ ] Have water nearby
 - [ ] Smile and show enthusiasm
@@ -276,14 +275,12 @@ CrowdStrike tracks nation-state actors with animal naming:
 ## Post-Interview
 
 ### Within 24 Hours:
-
 - [ ] Send thank-you email to each interviewer
 - [ ] Document questions asked in [[07_Interview-Logs/|Interview Logs]]
 - [ ] Note topics you struggled with for study
 - [ ] Update relevant question notes with new insights
 
 ### Follow-up:
-
 - Typical decision timeline: 1-2 weeks
 - Don't be afraid to follow up with recruiter after 1 week
 - Continue studying and interviewing elsewhere
@@ -293,14 +290,12 @@ CrowdStrike tracks nation-state actors with animal naming:
 ## Resources
 
 **CrowdStrike Resources:**
-
 - [CrowdStrike Blog](https://www.crowdstrike.com/blog/)
 - [Falcon Platform Overview](https://www.crowdstrike.com/products/)
 - [Threat Intelligence Reports](https://www.crowdstrike.com/resources/)
 - [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/)
 
 **Related Vault Notes:**
-
 - [[MOC_Roles#SOC Analyst|SOC Analyst Questions]]
 - [[Q_IR_NIST-Lifecycle|Incident Response]]
 - [[03_Technical/Frameworks/|Security Frameworks]]
@@ -310,4 +305,4 @@ CrowdStrike tracks nation-state actors with animal naming:
 
 **Good luck with your CrowdStrike interview! 🦅**
 
-_Remember: CrowdStrike values mission-driven professionals who are passionate about stopping breaches. Show that you understand modern threats and have the skills to respond to them._
+*Remember: CrowdStrike values mission-driven professionals who are passionate about stopping breaches. Show that you understand modern threats and have the skills to respond to them.*

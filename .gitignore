@@ -1,0 +1,42 @@
+# Obsidian workspace files
+.obsidian/workspace.json
+.obsidian/workspace
+.obsidian/workspace-mobile.json
+
+# Obsidian cache
+.obsidian/cache
+
+# Obsidian plugins (keep plugin configs, ignore downloads)
+.obsidian/plugins/*/
+!.obsidian/plugins/*/data.json
+
+# Trash
+.trash/
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# Personal notes (if any)
+Personal/
+Private/
+
+# Backup files
+*.bak
+*~
+
+# Log files
+*.log
+
+
+
+
+# Ignore Smart Environment folder
+.smart-env

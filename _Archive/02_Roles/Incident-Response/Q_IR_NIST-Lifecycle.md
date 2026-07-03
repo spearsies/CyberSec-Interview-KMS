@@ -1,42 +1,53 @@
 ---
-
-title: "Explain the NIST Incident Response Lifecycle" type: interview-question created: 2025-01-15 modified: 2025-01-15
+title: "Explain the NIST Incident Response Lifecycle"
+type: interview-question
+created: 2025-01-15
+modified: 2025-01-15
 
 # Classification
-
-domain: [incident-response, frameworks] role: [incident-response, soc-analyst, security-manager] difficulty: intermediate question_type: technical
+domain: [incident-response, frameworks]
+role: [incident-response, soc-analyst, security-manager]
+difficulty: intermediate
+question_type: technical
 
 # Progress Tracking
-
-confidence: 1 times_reviewed: 0 last_reviewed: status: new
+confidence: 1
+times_reviewed: 0
+last_reviewed: 
+status: new
 
 # Spaced Repetition
-
-sr-due: 2025-01-15 sr-interval: 1 sr-ease: 250
+sr-due: 2025-01-15
+sr-interval: 1
+sr-ease: 250
 
 # Context
-
-company_asked: [] source: "NIST SP 800-61 Rev 2 - Computer Security Incident Handling Guide" tags:
-
-- flashcard
-- interview-question
-- frameworks/nist
-- ir/lifecycle
-- essential
-
+company_asked: []
+source: "NIST SP 800-61 Rev 2 - Computer Security Incident Handling Guide"
+tags:
+  - flashcard
+  - interview-question
+  - frameworks/nist
+  - ir/lifecycle
+  - essential
 ---
-
+```
+---
+status: "To Study" # Options: "To Study", "Reviewing", "Mastered"
+domain: ["Analyst"] # Options: "Analyst", "Engineering", "Cloud", "AppSec"
+difficulty: 2 # Options: 1, 2, 3
+tags: [interview, security]
+last_reviewed: 2023-10-27
+---
+```
 ## Question
-
 Explain the NIST Incident Response Lifecycle and the key activities in each phase.
 
 ## Quick Answer
-
-The NIST IR Lifecycle has **4 phases**:
-
-1. **Preparation**
-2. **Detection & Analysis**
-3. **Containment, Eradication & Recovery**
+The NIST IR Lifecycle has **4 phases**: 
+1. **Preparation** 
+2. **Detection & Analysis** 
+3. **Containment, Eradication & Recovery** 
 4. **Post-Incident Activity**
 
 ## Detailed Answer
@@ -77,7 +88,6 @@ The NIST IR Lifecycle has **4 phases**:
 **Goal:** Build and maintain incident response capability before incidents occur
 
 **Key Activities:**
-
 - ✅ Develop IR policies, procedures, and playbooks
 - ✅ Form and train IR team (roles, responsibilities)
 - ✅ Acquire tools (forensics, monitoring, analysis)
@@ -87,13 +97,12 @@ The NIST IR Lifecycle has **4 phases**:
 - ✅ Conduct tabletop exercises
 
 **Deliverables:**
-
 - Incident Response Plan (IRP)
 - Contact lists (internal/external: legal, PR, law enforcement)
 - Jump bags/forensics workstations
 - Baseline system images
 
-**Interview Insight:** _"Without preparation, you're just reacting. With it, you're executing a plan."_
+**Interview Insight:** *"Without preparation, you're just reacting. With it, you're executing a plan."*
 
 ---
 
@@ -102,7 +111,6 @@ The NIST IR Lifecycle has **4 phases**:
 **Goal:** Identify potential incidents and determine scope/severity
 
 **Key Activities:**
-
 - 🔍 Monitor alerts from SIEM, EDR, IDS/IPS, firewall
 - 🔍 Analyze indicators of compromise (IOCs)
 - 🔍 Validate incidents (true vs. false positive)
@@ -112,21 +120,18 @@ The NIST IR Lifecycle has **4 phases**:
 - 🔍 Notify stakeholders per escalation matrix
 
 **Detection Sources:**
-
 - Automated alerts (SIEM, EDR, DLP)
 - User reports (help desk, phishing reports)
 - Threat intelligence feeds
 - Third-party notifications (vendor, security researchers)
 
 **Analysis Questions:**
-
 - What happened? (attack vector, timeline)
 - How did it happen? (vulnerability exploited)
 - Who/what was affected? (scope)
 - What's the potential impact? (data, systems, business)
 
 **Challenges:**
-
 - Alert fatigue and false positives
 - Encrypted traffic limiting visibility
 - Advanced persistent threats (APT) hiding in normal traffic
@@ -141,21 +146,18 @@ The NIST IR Lifecycle has **4 phases**:
 #### 3A. CONTAINMENT
 
 **Short-term Containment (minutes to hours):**
-
 - Isolate affected systems (network segmentation, disable network)
 - Block malicious IPs/domains at firewall
 - Disable compromised accounts
 - Preserve evidence (memory dumps, disk images)
 
 **Long-term Containment (hours to days):**
-
 - Apply temporary patches/workarounds
 - Deploy additional monitoring on affected segments
 - Update detection rules
 - Implement compensating controls
 
 **Containment Strategy Example (Ransomware):**
-
 ```
 Immediate: Isolate infected hosts at switch level
 Short-term: Disable SMB shares, block C2 domains
@@ -165,7 +167,6 @@ Long-term: Segment network, apply patches, deploy EDR
 #### 3B. ERADICATION
 
 **Remove the threat completely:**
-
 - Delete malware, backdoors, rootkits
 - Remove unauthorized accounts/keys
 - Patch vulnerabilities that enabled access
@@ -173,7 +174,6 @@ Long-term: Segment network, apply patches, deploy EDR
 - Reset compromised credentials
 
 **Verification:**
-
 - Re-scan systems with multiple AV/EDR tools
 - Review logs for persistence mechanisms
 - Conduct threat hunting for similar IOCs
@@ -181,7 +181,6 @@ Long-term: Segment network, apply patches, deploy EDR
 #### 3C. RECOVERY
 
 **Restore systems to normal operation:**
-
 - Rebuild systems from clean backups/images
 - Restore data from verified clean backups
 - Change all credentials (assume compromise)
@@ -190,7 +189,6 @@ Long-term: Segment network, apply patches, deploy EDR
 - Increase monitoring for relapse indicators
 
 **Recovery Checklist:**
-
 - [ ] Verify malware removal
 - [ ] Patch vulnerabilities
 - [ ] Reset all credentials
@@ -205,7 +203,6 @@ Long-term: Segment network, apply patches, deploy EDR
 **Goal:** Learn from the incident and improve defenses
 
 **Key Activities:**
-
 - 📋 Conduct lessons learned meeting (within 2 weeks)
 - 📋 Document timeline and root cause
 - 📋 Identify gaps in detection/response
@@ -215,7 +212,6 @@ Long-term: Segment network, apply patches, deploy EDR
 - 📋 Update metrics (MTTD, MTTR)
 
 **Lessons Learned Questions:**
-
 - What worked well?
 - What could be improved?
 - What new tools/processes are needed?
@@ -224,7 +220,6 @@ Long-term: Segment network, apply patches, deploy EDR
 - Was communication effective?
 
 **Continuous Improvement Loop:**
-
 ```
 Incident → Response → Lessons Learned → 
 Update Tools/Processes → Better Preparation → 
@@ -246,41 +241,40 @@ Faster Detection → Improved Response
 ### Advanced Discussion Points:
 
 **Parallel vs. Sequential Activities:**
-
 - Detection and Containment often overlap
 - Recovery may start before complete Eradication (business pressure)
 
 **Evidence Preservation:**
-
 - Chain of custody requirements
 - Legal/forensics vs. business continuity tensions
 - When to involve law enforcement
 
 **Communication:**
-
 - Internal: IT, Management, Legal, HR, PR
 - External: Customers, regulators, law enforcement, media
 
 ### Common Follow-up Questions:
 
-**Q: "What's the most critical phase?"** A: "Preparation - it determines how effective all other phases are. Without proper preparation, you're just reacting."
+**Q: "What's the most critical phase?"**
+A: "Preparation - it determines how effective all other phases are. Without proper preparation, you're just reacting."
 
-**Q: "When do you involve law enforcement?"** A: "Depends on: data theft severity, regulatory requirements, attribution needs. Generally coordinate with legal counsel first."
+**Q: "When do you involve law enforcement?"**
+A: "Depends on: data theft severity, regulatory requirements, attribution needs. Generally coordinate with legal counsel first."
 
-**Q: "How do you balance business continuity with evidence preservation?"** A: "Document everything, take forensic images early, then prioritize business recovery. Work with legal to determine evidence requirements."
+**Q: "How do you balance business continuity with evidence preservation?"**
+A: "Document everything, take forensic images early, then prioritize business recovery. Work with legal to determine evidence requirements."
 
 ### Example Framework Response:
 
-> "The NIST IR Lifecycle has four phases. In **Preparation**, we built our IR team, developed playbooks, and deployed monitoring tools - this groundwork is critical because incidents move fast.
-> 
+> "The NIST IR Lifecycle has four phases. In **Preparation**, we built our IR team, developed playbooks, and deployed monitoring tools - this groundwork is critical because incidents move fast. 
+>
 > During **Detection & Analysis**, we use our SIEM to identify potential incidents, validate them, scope the impact, and assign severity. For example, [give specific example from your experience].
-> 
+>
 > The **Containment, Eradication, and Recovery** phase involves first stopping the spread - like isolating infected systems during ransomware - then removing the threat completely, and finally restoring operations from clean backups while monitoring for relapse.
-> 
+>
 > Finally, in **Post-Incident Activity**, we conduct lessons learned within two weeks, update our playbooks, and implement security improvements. This feeds directly back to Preparation, creating a continuous improvement cycle."
 
 ## Related Concepts
-
 - [[C_Incident-Response-Planning]]
 - [[Q_IR_Chain-of-Custody]]
 - [[Q_IR_MTTD-vs-MTTR]]
@@ -289,5 +283,8 @@ Faster Detection → Improved Response
 - [[S_IR_Ransomware-Response]]
 
 ## Flashcard
-
-NIST IR Lifecycle phases::1. Preparation, 2. Detection & Analysis, 3. Containment/Eradication/Recovery, 4. Post-Incident Activity IR Preparation activities::Develop policies/playbooks, form IR team, acquire tools, establish communications, deploy prevention controls IR Detection sources::SIEM/EDR alerts, user reports, threat intel, third-party notifications Containment vs Eradication::Containment stops the spread (immediate), Eradication removes threat completely (thorough) Post-incident activity purpose::Lessons learned, improve defenses, update playbooks, share IOCs
+NIST IR Lifecycle phases::1. Preparation, 2. Detection & Analysis, 3. Containment/Eradication/Recovery, 4. Post-Incident Activity
+IR Preparation activities::Develop policies/playbooks, form IR team, acquire tools, establish communications, deploy prevention controls
+IR Detection sources::SIEM/EDR alerts, user reports, threat intel, third-party notifications
+Containment vs Eradication::Containment stops the spread (immediate), Eradication removes threat completely (thorough)
+Post-incident activity purpose::Lessons learned, improve defenses, update playbooks, share IOCs

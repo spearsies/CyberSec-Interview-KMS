@@ -1,3 +1,13 @@
+```
+---
+status: "To Study" # Options: "To Study", "Reviewing", "Mastered"
+domain: ["Analyst"] # Options: "Analyst", "Engineering", "Cloud", "AppSec"
+difficulty: 2 # Options: 1, 2, 3
+tags: [interview, security]
+last_reviewed: 2023-10-27
+---
+```
+
 ---
 
 title: "What is the CIA Triad?" type: interview-question created: 2025-01-15 modified: 2025-01-15
