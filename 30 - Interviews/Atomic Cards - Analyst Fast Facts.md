@@ -7,9 +7,10 @@ tags:
 
 # ⚡ Analyst Fast Facts (flashcard deck)
 
-Hidden-answer drill cards. Each `Term::Answer` line below is one flashcard. Review with
-**"Spaced Repetition: Review flashcards from all notes"** — the front shows, the answer hides
-until you click *Show Answer*. This note uses `#flashcards` (deck mode), NOT `#review` (note mode).
+Hidden-answer drill cards — each line below is one card (prompt before the double colon, answer
+after). Review with **Spaced Repetition → "Review flashcards from all notes"**; the front shows,
+the answer hides until you click *Show Answer*. This note uses `#flashcards` (deck mode), NOT
+`#review` (note mode).
 
 ## Windows Event IDs
 Event ID 4624::Successful logon — check Logon Type (3 = network, 10 = RDP)
