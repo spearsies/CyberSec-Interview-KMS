@@ -31,4 +31,4 @@ It's a repeatable loop: (1) intake a requirement — threat intel, an ATT&CK gap
 
 ## 🔗 Related
 - [[DetectionEng - Managing Detection Rule Lifecycle]]
-- [[Analyst - Building a Threat Hunt Hypothesis]]
+- [[ThreatHunt - Threat Hunting Methodology]]

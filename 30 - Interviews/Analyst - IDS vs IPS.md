@@ -22,4 +22,4 @@ An **IDS** detects and alerts on suspicious traffic but sits out-of-band — it 
 - Detection methods (signature vs. anomaly/behavioral) apply to both.
 
 ## 🔗 Related
-- [[Networking - 3-Way Handshake]]
+- [[Networking - TCP Handshake and Scan Detection]]

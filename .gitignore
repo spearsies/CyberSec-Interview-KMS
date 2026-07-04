@@ -40,3 +40,10 @@ Private/
 
 # Ignore Smart Environment folder
 .smart-env
+# Personal / career notes — keep LOCAL only (public repo)
+/2026-07-03.md
+/30 - Interviews/Company - Early Warning Services.md
+/30 - Interviews/Behavioral - STAR Stories.md
+/30 - Interviews/Behavioral - Tell Me About Yourself.md
+/30 - Interviews/Scenario - FinServ Advisor Compromise.md
+/10 - MOCs/Role - Principal Security Analyst L3.md

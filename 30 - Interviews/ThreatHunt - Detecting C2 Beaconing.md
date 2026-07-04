@@ -31,5 +31,5 @@ Beacons phone home on a regular cadence, so the tell is **regularity**, not payl
 
 ## 🔗 Related
 - [[ThreatHunt - Detecting DNS Tunneling and C2]]
-- [[Networking - Port Scan vs SYN Flood]]
+- [[Networking - TCP Handshake and Scan Detection]]
 - [[JA3 and JA4 Fingerprinting]]

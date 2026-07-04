@@ -78,7 +78,7 @@ CIA stands for **Confidentiality, Integrity, and Availability** - the three core
 - "How does ransomware violate CIA?" *(Primarily Availability, sometimes Confidentiality)*
 
 ### Example Answer Framework:
-> "The CIA Triad represents the three fundamental security objectives. In my work [at Edward Jones/previous role], we prioritized Confidentiality for customer financial data through encryption and strict access controls, Integrity through file integrity monitoring and audit logging, and Availability through redundant systems and our incident response procedures. A recent phishing incident required us to verify data Integrity while maintaining Confidentiality during the investigation..."
+> "The CIA Triad represents the three fundamental security objectives. In my work [at a previous role], we prioritized Confidentiality for customer financial data through encryption and strict access controls, Integrity through file integrity monitoring and audit logging, and Availability through redundant systems and our incident response procedures. A recent phishing incident required us to verify data Integrity while maintaining Confidentiality during the investigation..."
 
 ## Related Concepts
 - [[Analyst - Access Control Models]]

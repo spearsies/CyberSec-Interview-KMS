@@ -31,4 +31,4 @@ Detections rot silently — a log source breaks, an EDR update changes the telem
 
 ## 🔗 Related
 - [[DetectionEng - Testing Detections Before Deployment]]
-- [[Analyst - Building a Threat Hunt Hypothesis]]
+- [[ThreatHunt - Threat Hunting Methodology]]

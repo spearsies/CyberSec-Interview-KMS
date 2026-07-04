@@ -1,62 +1,24 @@
 {
   "main": {
-    "id": "5863e39409f635cd",
+    "id": "3f228f68f5aedc25",
     "type": "split",
     "children": [
       {
-        "id": "fbc87b1a4d6ffd58",
+        "id": "38fa80daa3f8e458",
         "type": "tabs",
         "children": [
           {
-            "id": "1d515b34da3cd3e7",
+            "id": "d6640c2cb0e85cf2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q behavioral incident under pressure.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Q behavioral incident under pressure"
-            }
-          },
-          {
-            "id": "b181cd40c82a0ca6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EJ-Q02-Walk-me-through-how-you-would-investigate-a-suspicious-email-alert 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "EJ-Q02-Walk-me-through-how-you-would-investigate-a-suspicious-email-alert 1"
-            }
-          },
-          {
-            "id": "0e89af8f05bbd9a3",
-            "type": "leaf",
-            "state": {
-              "type": "smart-release-notes-view",
-              "state": {},
-              "icon": "file-text",
-              "title": "Release Notes"
-            }
-          },
-          {
-            "id": "ea9ab67174084d58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_Roles/SOC-Analyst/Q_Network_IDS-vs-IPS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Q_Network_IDS-vs-IPS"
+              "title": "README"
             }
           }
         ]
@@ -65,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8141de3a0f1cbef2",
+    "id": "af8feefc537ebfb0",
     "type": "split",
     "children": [
       {
-        "id": "58d31819b4fda820",
+        "id": "351fea404e5659e2",
         "type": "tabs",
         "children": [
           {
-            "id": "0dc198ba66502a7f",
+            "id": "af4baff748edf729",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -86,7 +48,7 @@
             }
           },
           {
-            "id": "5d3910603ed84eef",
+            "id": "86d77a578bc596e5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -103,7 +65,7 @@
             }
           },
           {
-            "id": "6e0457d91a501ed4",
+            "id": "97508ef187a609f4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -119,19 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "e4352b4fed2e325b",
+    "id": "6662560052b8ee2a",
     "type": "split",
     "children": [
       {
-        "id": "d4b1ed237cb2b682",
+        "id": "9dbbbb4ccbcb34f7",
         "type": "tabs",
         "children": [
           {
-            "id": "9e2d61fc219b4bd3",
+            "id": "6006f18d5c36a222",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "99 - Meta/Templates/Template - Interview Question.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Template - Interview Question"
             }
           },
           {
-            "id": "80f6ddbbdf0300ab",
+            "id": "e9d373883faa20aa",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "99 - Meta/Templates/Template - Interview Question.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Template - Interview Question"
             }
           },
           {
-            "id": "13b2d701a6a43561",
+            "id": "4abcfb634f1cdf91",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -173,7 +137,7 @@
             }
           },
           {
-            "id": "04498462a06345b9",
+            "id": "58b214816b8baffb",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -187,37 +151,28 @@
             }
           },
           {
-            "id": "f1ebf3faaf1c5dea",
+            "id": "e82402015dadb2c5",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "99 - Meta/Templates/Template - Interview Question.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Template - Interview Question"
             }
           },
           {
-            "id": "1d00dad8571bef71",
+            "id": "1a88b025e6fc3d2d",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
               "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
-            }
-          },
-          {
-            "id": "849951a0aa044193",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "smart-connections",
-              "title": "Connections"
             }
           }
         ],
@@ -236,52 +191,46 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-importer:Open Importer": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "templater-obsidian:Templater": false,
-      "private-ai:Open private AI": false,
-      "smart-connections:Smart Connections: Open connections view": false,
-      "smart-connections:Smart Lookup: Open lookup view": false,
-      "smart-connections:Smart Connections: Open random connection": false
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1d00dad8571bef71",
+  "active": "d6640c2cb0e85cf2",
   "lastOpenFiles": [
-    "S windows failed login investigation · MD.md",
-    "EJ-Q02-Walk-me-through-how-you-would-investigate-a-suspicious-email-alert 1.md",
-    "EJ-Q03-You-receive-an-alert-for-multiple-failed-login-attempts-to-a-privileged-account.md",
-    "02_Roles/SOC-Analyst/Q_Network_IDS-vs-IPS.md",
-    "02_Roles/SOC-Analyst/S_Windows_Failed-Login-Investigation.md",
-    "CrowdStrike.md",
-    "02_Roles/SOC-Analyst/Q_Fundamentals_CIA-Triad.md",
-    "01_MOCs/MOC_Roles.md",
-    "02_Roles/Incident-Response/Q_IR_NIST-Lifecycle.md",
-    "01_MOCs/Dashboard_Progress.md",
-    "00_System/Dashboard progress · MD.md",
-    "00_System/00_Dashboard.md",
-    "00_System/Templates/TQ_Question-Template.md",
-    "00_System/Templates/TI_Interview-Log.md",
-    "00_System/Templates/TC_Concept-Template.md",
-    "README.md",
-    "Q ir nist lifecycle.md",
-    "Q behavioral incident under pressure.md",
-    "Q aws shared responsibility model.md",
-    "Moc roles · MD.md",
-    "fundamentals cia triad · MD.md",
-    "06_Companies/CrowdStrike.md",
-    "03_Technical/Cloud-Security/Q_AWS_Shared-Responsibility-Model.md",
-    "01_MOCs/Home.md",
-    "SETUP_INSTRUCTIONS.md",
-    "Data.md",
-    "07_Interview-Logs",
-    "06_Companies",
-    "05_Behavioral",
-    "04_Scenarios/Incident-Response",
-    "04_Scenarios/Decision-Making",
-    "04_Scenarios/Architecture-Design",
-    "04_Scenarios",
-    "03_Technical/Security-Tools",
-    "03_Technical/Scripting",
-    "03_Technical/Network-Security"
+    "30 - Interviews/Company - Early Warning Services.md",
+    "10 - MOCs/Role - Principal Security Analyst L3.md",
+    "30 - Interviews/Scenario - FinServ Advisor Compromise.md",
+    "30 - Interviews/Scenario - Incident Escalation Decision Tree.md",
+    "30 - Interviews/Scenario - Customer Breach First 30 Minutes.md",
+    "30 - Interviews/ThreatHunt - Threat Hunting Methodology.md",
+    "30 - Interviews/Networking - TCP Handshake and Scan Detection.md",
+    "30 - Interviews/Analyst - Packet Capture Analysis.md",
+    "30 - Interviews/Analyst - Investigate Linux Host Compromise.md",
+    "30 - Interviews/Malware - AsyncRAT Technical Anchor.md",
+    "30 - Interviews/Behavioral - Tell Me About Yourself.md",
+    "30 - Interviews/Behavioral - STAR Stories.md",
+    "_Archive/03_Technical/Cloud-Security/Q_AWS_Shared-Responsibility-Model.md",
+    "_Archive/02_Roles/SOC-Analyst/S_Windows_Failed-Login-Investigation.md",
+    "_Archive/02_Roles/SOC-Analyst/Q_Network_IDS-vs-IPS.md",
+    "_Archive/02_Roles/SOC-Analyst/Q_Fundamentals_CIA-Triad.md",
+    "_Archive/02_Roles/Incident-Response/Q_IR_NIST-Lifecycle.md",
+    "_Archive/00_System/Templates/TQ_Question-Template.md",
+    "_Archive/00_System/Templates/TI_Interview-Log.md",
+    "_Archive/00_System/Templates/TC_Concept-Template.md",
+    "_Archive/legacy-root/setup.sh",
+    "_Archive/legacy-root/fundamentals cia triad · MD.md",
+    "_Archive/legacy-root/SETUP_INSTRUCTIONS.md",
+    "_Archive/legacy-root/S windows failed login investigation · MD.md",
+    "_Archive/legacy-root/Q ir nist lifecycle.md",
+    "_Archive/legacy-root/Q behavioral incident under pressure.md",
+    "_Archive/legacy-root/Q aws shared responsibility model.md",
+    "_Archive/03_Technical/Cloud-Security",
+    "_Archive/02_Roles/SOC-Analyst",
+    "_Archive/02_Roles/Incident-Response",
+    "_Archive/00_System/Templates",
+    "_Archive/legacy-root",
+    "_Archive/06_Companies",
+    "_Archive/05_Behavioral",
+    "_Archive/03_Technical",
+    "_Archive/02_Roles"
   ]
 }

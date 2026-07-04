@@ -31,4 +31,4 @@ Intel is only useful if it drives action. Operationalizing it means turning rele
 
 ## 🔗 Related
 - [[Analyst - Using MITRE ATT&CK in SOC Operations]]
-- [[Analyst - Building a Threat Hunt Hypothesis]]
+- [[ThreatHunt - Threat Hunting Methodology]]

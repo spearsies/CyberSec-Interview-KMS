@@ -19,5 +19,4 @@ TCP control bits govern connection state. Reading them is central to spotting sc
 The 3-way handshake is `SYN → SYN-ACK → ACK`. A SYN scan never sends the final ACK (SYN → SYN-ACK → RST); a SYN flood withholds the ACK to exhaust the half-open queue.
 
 ## 🔗 Related
-- [[Networking - 3-Way Handshake]]
-- [[Networking - Port Scan vs SYN Flood]]
+- [[Networking - TCP Handshake and Scan Detection]]
