@@ -31,3 +31,5 @@ Decode first, then judge intent and blast radius. Base64-decode the `-EncodedCom
 ## 🔗 Related
 - [[Analyst - Detecting Living-off-the-Land Binaries]]
 - [[Analyst - Investigate Windows Host Compromise]]
+- [[LOLBins]]
+- [[Sysmon]]

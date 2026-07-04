@@ -31,3 +31,5 @@ Treat the IOC as a starting node and expand outward. Search all telemetry for it
 ## 🔗 Related
 - [[ThreatIntel - Operationalizing Threat Intelligence]]
 - [[Analyst - Investigate Windows Host Compromise]]
+- [[Diamond Model]]
+- [[IOC vs IOA]]

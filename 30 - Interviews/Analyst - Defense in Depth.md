@@ -31,3 +31,4 @@ Defense in depth layers independent controls so no single failure is fatal — p
 ## 🔗 Related
 - [[Analyst - Access Control Models]]
 - [[Cloud - Threat Detection in Cloud vs On-Prem]]
+- [[Zero Trust]]

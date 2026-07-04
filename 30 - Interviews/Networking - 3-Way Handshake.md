@@ -29,3 +29,4 @@ It's how two hosts establish a reliable connection: **SYN → SYN-ACK → ACK**.
 
 ## 🔗 Related
 - [[Networking - Port Scan vs SYN Flood]]
+- [[TCP Flags and Control Bits]]

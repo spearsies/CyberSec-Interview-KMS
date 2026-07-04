@@ -143,6 +143,7 @@ Document everything for incident report:
 - [[Analyst - Prioritizing a Flood of Alerts]]
 - [[Analyst - Active Directory Attack Paths]]
 - [[KQL - Detecting Brute Force with KQL]]
+- [[Windows Security Event IDs]]
 
 ## Flashcard
 Windows Event ID 4625::Failed logon attempt

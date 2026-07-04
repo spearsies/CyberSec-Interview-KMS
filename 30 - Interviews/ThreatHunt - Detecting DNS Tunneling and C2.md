@@ -30,3 +30,4 @@ DNS is often unmonitored and allowed outbound, so attackers use it for C2 and ex
 ## 🔗 Related
 - [[ThreatHunt - Detecting C2 Beaconing]]
 - [[Analyst - Detecting Data Exfiltration]]
+- [[DNS Fundamentals]]

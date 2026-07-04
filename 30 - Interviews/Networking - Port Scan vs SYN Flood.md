@@ -24,3 +24,4 @@ Both show lots of SYNs, but **intent and shape differ**. A scan is one source to
 
 ## 🔗 Related
 - [[Networking - 3-Way Handshake]]
+- [[TCP Flags and Control Bits]]

@@ -34,3 +34,5 @@ ATT&CK is a common language and a coverage map. Day to day I map detections and 
 ## 🔗 Related
 - [[Analyst - What Makes a Good Detection Rule]]
 - [[ThreatIntel - Operationalizing Threat Intelligence]]
+- [[MITRE ATT&CK]]
+- [[Cyber Kill Chain]]

@@ -32,3 +32,5 @@ Lateral movement shows up as authentication and remote-execution patterns that d
 ## 🔗 Related
 - [[Analyst - Detecting Kerberoasting]]
 - [[Analyst - Investigate Windows Host Compromise]]
+- [[Windows Security Event IDs]]
+- [[Kerberos Authentication]]

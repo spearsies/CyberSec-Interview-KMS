@@ -32,3 +32,4 @@ Attackers pivot through AD via credential theft and privilege escalation: Kerber
 ## 🔗 Related
 - [[Analyst - Detecting Kerberoasting]]
 - [[ThreatHunt - Detecting Lateral Movement]]
+- [[Kerberos Authentication]]

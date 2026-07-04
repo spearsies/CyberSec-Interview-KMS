@@ -32,3 +32,4 @@ Access control decides who can do what. **DAC** lets the resource owner grant ac
 ## 🔗 Related
 - [[Analyst - CIA Triad]]
 - [[Analyst - Defense in Depth]]
+- [[Zero Trust]]

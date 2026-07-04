@@ -27,3 +27,5 @@ Scope and hypothesis first, then work **process lineage → auth events → pers
 
 ## 🔗 Related
 - [[Analyst - IDS vs IPS]]
+- [[Sysmon]]
+- [[Windows Security Event IDs]]

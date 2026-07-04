@@ -35,3 +35,5 @@ A good detection targets attacker *behavior* (hard for them to change) over brit
 ## 🔗 Related
 - [[Analyst - Tuning a Noisy Detection Rule]]
 - [[Analyst - Using MITRE ATT&CK in SOC Operations]]
+- [[Pyramid of Pain]]
+- [[MITRE ATT&CK]]

@@ -30,3 +30,4 @@ Kerberoasting abuses Kerberos: any authenticated user can request a service tick
 ## 🔗 Related
 - [[ThreatHunt - Detecting Lateral Movement]]
 - [[Analyst - Windows Failed Login Investigation]]
+- [[Kerberos Authentication]]

@@ -30,3 +30,4 @@ LOLBins are legitimate, signed OS binaries — certutil, rundll32, mshta, regsvr
 ## 🔗 Related
 - [[Analyst - Triage a Suspicious PowerShell Alert]]
 - [[ThreatHunt - Detecting Lateral Movement]]
+- [[LOLBins]]
