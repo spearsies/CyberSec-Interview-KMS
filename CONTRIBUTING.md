@@ -15,7 +15,7 @@ Ensure you tag the domain (e.g., `appsec`, `analyst`, `cloud`) so others can fin
 Help us bridge the gap between "knowing the answer" and "understanding the technology." Add or improve atomic concept notes in `20 - Key Concepts`.
 
 ### 3. Refactoring & Linking
-If you see a question that should be linked to a technical concept but isn't, feel free to update the internal `[[Links]]`.
+If you see a question that should be linked to a technical concept but isn't, feel free to wire up the internal wiki-links between notes.
 
 ## 🚀 The Contribution Workflow
 

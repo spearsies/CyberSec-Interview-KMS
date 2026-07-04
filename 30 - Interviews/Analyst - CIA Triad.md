@@ -81,11 +81,9 @@ CIA stands for **Confidentiality, Integrity, and Availability** - the three core
 > "The CIA Triad represents the three fundamental security objectives. In my work [at Edward Jones/previous role], we prioritized Confidentiality for customer financial data through encryption and strict access controls, Integrity through file integrity monitoring and audit logging, and Availability through redundant systems and our incident response procedures. A recent phishing incident required us to verify data Integrity while maintaining Confidentiality during the investigation..."
 
 ## Related Concepts
-- [[C_Security-Fundamentals]]
-- [[C_Access-Control-Models]]
-- [[C_Defense-in-Depth]]
-- [[Q_SOC_Data-Classification]]
-- [[Q_Security_Parkerian-Hexad]]
+- [[Analyst - Access Control Models]]
+- [[Analyst - Data Classification]]
+- [[Analyst - Defense in Depth]]
 
 ## Flashcard
 CIA Triad definition::Confidentiality (authorized access only), Integrity (accuracy/no tampering), Availability (accessible when needed)

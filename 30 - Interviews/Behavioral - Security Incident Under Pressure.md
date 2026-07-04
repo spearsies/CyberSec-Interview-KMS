@@ -251,11 +251,11 @@ Focus on:
 ---
 
 ## Related Concepts
-- [[C_STAR-Method]]
-- [[Q_Behavioral_Conflict-Resolution]]
-- [[Q_Behavioral_Leadership-Example]]
-- [[C_Incident-Communication]]
-- [[Q_IR_NIST-Lifecycle]]
+- [[Behavioral - Using the STAR Method]]
+- [[Behavioral - Handling Team Conflict]]
+- [[Behavioral - Demonstrating Leadership]]
+- [[Behavioral - Communicating During an Incident]]
+- [[IR - NIST Incident Response Lifecycle]]
 
 ## Flashcard
 STAR method acronym::Situation, Task, Action, Result

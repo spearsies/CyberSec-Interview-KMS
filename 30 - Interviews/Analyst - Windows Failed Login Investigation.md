@@ -138,11 +138,11 @@ Document everything for incident report:
 > I'd run additional SIEM queries to check if other accounts or Domain Controllers are targeted, document all findings, and escalate to Tier 2 if successful authentication occurred. Finally, I'd recommend implementing MFA and reviewing our lockout policies to prevent future incidents."
 
 ## Related Concepts
-- [[Q_Windows_Event-IDs]]
-- [[C_Brute-Force-vs-Password-Spray]]
-- [[Q_SOC_Alert-Triage-Process]]
-- [[C_Active-Directory-Security]]
-- [[Q_SIEM_SPL-Queries]]
+- [[Atomic Cards - Analyst Fast Facts]]
+- [[Analyst - Brute Force vs Password Spraying]]
+- [[Analyst - Prioritizing a Flood of Alerts]]
+- [[Analyst - Active Directory Attack Paths]]
+- [[KQL - Detecting Brute Force with KQL]]
 
 ## Flashcard
 Windows Event ID 4625::Failed logon attempt

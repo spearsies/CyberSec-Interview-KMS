@@ -252,11 +252,10 @@ A: *[Share specific examples from your work, like implementing encryption, IAM p
 > In my experience at [company], I've implemented this by [specific example: enabling CloudTrail across all accounts, implementing least privilege IAM policies, requiring MFA for all users, enabling encryption on S3 and EBS, etc.]. A critical lesson was [share a real incident or near-miss]."
 
 ## Related Concepts
-- [[C_AWS-IAM-Best-Practices]]
-- [[Q_Cloud_AWS-Security-Services]]
-- [[C_Cloud-Security-Frameworks]]
-- [[Q_Cloud_Azure-Shared-Responsibility]]
-- [[C_Defense-in-Depth-Cloud]]
+- [[Cloud - AWS Security Services and IAM Best Practices]]
+- [[Cloud - Security Frameworks and Benchmarks]]
+- [[Cloud - Azure vs AWS Shared Responsibility]]
+- [[Cloud - Threat Detection in Cloud vs On-Prem]]
 
 ## Flashcard
 AWS Shared Responsibility Model::AWS secures OF the cloud (infrastructure), Customer secures IN the cloud (data, apps, IAM)

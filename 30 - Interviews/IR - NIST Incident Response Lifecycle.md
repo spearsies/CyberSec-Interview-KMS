@@ -249,12 +249,10 @@ A: "Document everything, take forensic images early, then prioritize business re
 > Finally, in **Post-Incident Activity**, we conduct lessons learned within two weeks, update our playbooks, and implement security improvements. This feeds directly back to Preparation, creating a continuous improvement cycle."
 
 ## Related Concepts
-- [[C_Incident-Response-Planning]]
-- [[Q_IR_Chain-of-Custody]]
-- [[Q_IR_MTTD-vs-MTTR]]
-- [[C_SANS-IR-Process]]
-- [[Q_IR_Evidence-Collection]]
-- [[S_IR_Ransomware-Response]]
+- [[IR - NIST vs SANS Frameworks]]
+- [[IR - Evidence Handling and Chain of Custody]]
+- [[IR - SOC Metrics MTTD vs MTTR]]
+- [[Scenario - Ransomware Response]]
 
 ## Flashcard
 NIST IR Lifecycle phases::1. Preparation, 2. Detection & Analysis, 3. Containment/Eradication/Recovery, 4. Post-Incident Activity
