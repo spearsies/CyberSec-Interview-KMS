@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "10 - MOCs/Role - Principal Security Analyst L3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Role - Principal Security Analyst L3"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 347.5
   },
   "right": {
     "id": "6662560052b8ee2a",
@@ -184,6 +184,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-importer:Open Importer": false,
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -194,35 +196,35 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "d6640c2cb0e85cf2",
+  "active": "af4baff748edf729",
   "lastOpenFiles": [
+    "10 - MOCs/_IR & Threat Hunting Prep Guide (NIST 800-61).md",
+    "30 - Interviews/IR - Ransomware Containment & Eradication (Client System).md",
+    "30 - Interviews/NIST 800-61 - Lifecycle Rev2 vs Rev3.md",
+    "30 - Interviews/Hunting - Parse Normalize Extract from Unstructured Data.md",
+    "30 - Interviews/EDR - Investigating a Detection.md",
+    "30 - Interviews/SIEM - Log Analysis End to End.md",
+    "30 - Interviews/Analyst - Detecting Living-off-the-Land Binaries.md",
+    "99 - Meta/_Metadata Standard & Quiz Setup.md",
+    "30 - Interviews/Behavioral - Tell Me About Yourself.md",
     "30 - Interviews/Company - Early Warning Services.md",
+    "30 - Interviews/Atomic Cards - Networking and Protocol Facts.md",
     "10 - MOCs/Role - Principal Security Analyst L3.md",
+    "30 - Interviews/Behavioral - STAR Stories.md",
+    "30 - Interviews/Atomic Cards - Analyst Fast Facts.md",
+    "30 - Interviews/Analyst - Detecting Data Exfiltration.md",
+    "30 - Interviews/_Interview Prep — Command Center.md",
+    "30 - Interviews/Analyst - Access Control Models.md",
+    "20 - Key Concepts/Detection/Cyber Kill Chain.md",
+    "10 - MOCs/00 - Home Dashboard.md",
+    "30 - Interviews/Analyst - Brute Force vs Password Spraying.md",
+    "README.md",
     "30 - Interviews/Scenario - FinServ Advisor Compromise.md",
     "30 - Interviews/Scenario - Incident Escalation Decision Tree.md",
     "30 - Interviews/Scenario - Customer Breach First 30 Minutes.md",
     "30 - Interviews/ThreatHunt - Threat Hunting Methodology.md",
     "30 - Interviews/Networking - TCP Handshake and Scan Detection.md",
-    "30 - Interviews/Analyst - Packet Capture Analysis.md",
-    "30 - Interviews/Analyst - Investigate Linux Host Compromise.md",
-    "30 - Interviews/Malware - AsyncRAT Technical Anchor.md",
-    "30 - Interviews/Behavioral - Tell Me About Yourself.md",
-    "30 - Interviews/Behavioral - STAR Stories.md",
-    "_Archive/03_Technical/Cloud-Security/Q_AWS_Shared-Responsibility-Model.md",
-    "_Archive/02_Roles/SOC-Analyst/S_Windows_Failed-Login-Investigation.md",
-    "_Archive/02_Roles/SOC-Analyst/Q_Network_IDS-vs-IPS.md",
-    "_Archive/02_Roles/SOC-Analyst/Q_Fundamentals_CIA-Triad.md",
-    "_Archive/02_Roles/Incident-Response/Q_IR_NIST-Lifecycle.md",
-    "_Archive/00_System/Templates/TQ_Question-Template.md",
-    "_Archive/00_System/Templates/TI_Interview-Log.md",
-    "_Archive/00_System/Templates/TC_Concept-Template.md",
     "_Archive/legacy-root/setup.sh",
-    "_Archive/legacy-root/fundamentals cia triad · MD.md",
-    "_Archive/legacy-root/SETUP_INSTRUCTIONS.md",
-    "_Archive/legacy-root/S windows failed login investigation · MD.md",
-    "_Archive/legacy-root/Q ir nist lifecycle.md",
-    "_Archive/legacy-root/Q behavioral incident under pressure.md",
-    "_Archive/legacy-root/Q aws shared responsibility model.md",
     "_Archive/03_Technical/Cloud-Security",
     "_Archive/02_Roles/SOC-Analyst",
     "_Archive/02_Roles/Incident-Response",
