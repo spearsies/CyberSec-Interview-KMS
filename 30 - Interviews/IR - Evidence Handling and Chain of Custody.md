@@ -29,5 +29,5 @@ Preserve evidence in **order of volatility**, work only on verified copies (hash
 - Why hash before *and* after acquisition?
 
 ## 🔗 Related
-- [[IR - NIST Incident Response Lifecycle]]
+- [[NIST 800-61 - Lifecycle Rev2 vs Rev3]]
 - [[Forensics - When to Use Memory Forensics]]

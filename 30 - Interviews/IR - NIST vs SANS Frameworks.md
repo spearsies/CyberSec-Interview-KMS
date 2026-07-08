@@ -29,5 +29,5 @@ Both describe the same lifecycle with different groupings. **NIST SP 800-61** ha
 - What actually happens in Lessons Learned?
 
 ## 🔗 Related
-- [[IR - NIST Incident Response Lifecycle]]
+- [[NIST 800-61 - Lifecycle Rev2 vs Rev3]]
 - [[IR - Evidence Handling and Chain of Custody]]

@@ -255,7 +255,7 @@ Focus on:
 - [[Behavioral - Handling Team Conflict]]
 - [[Behavioral - Demonstrating Leadership]]
 - [[Behavioral - Communicating During an Incident]]
-- [[IR - NIST Incident Response Lifecycle]]
+- [[NIST 800-61 - Lifecycle Rev2 vs Rev3]]
 
 ## Flashcard
 STAR method acronym::Situation, Task, Action, Result

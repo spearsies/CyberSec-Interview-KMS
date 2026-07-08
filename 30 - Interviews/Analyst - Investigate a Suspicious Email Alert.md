@@ -99,5 +99,5 @@ graph TD
 - [[Analyst - Email Header and Phishing Analysis]]
 - [[Analyst - Safely Analyzing a Malicious Attachment]]
 - [[Analyst - Pivoting on Indicators of Compromise]]
-- [[IR - NIST Incident Response Lifecycle]]
+- [[NIST 800-61 - Lifecycle Rev2 vs Rev3]]
 - [[ThreatIntel - Operationalizing Threat Intelligence]]

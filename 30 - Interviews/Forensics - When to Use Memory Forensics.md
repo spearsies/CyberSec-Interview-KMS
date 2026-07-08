@@ -31,4 +31,4 @@ Reach for memory when the evidence only lives in RAM — fileless/in-memory malw
 
 ## 🔗 Related
 - [[Analyst - Investigate Windows Host Compromise]]
-- [[IR - NIST Incident Response Lifecycle]]
+- [[NIST 800-61 - Lifecycle Rev2 vs Rev3]]

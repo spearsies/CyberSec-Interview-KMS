@@ -29,5 +29,5 @@ Communicate clearly, calmly, and on a cadence. Designate a single source of trut
 - Who should own external/customer communications?
 
 ## 🔗 Related
-- [[IR - NIST Incident Response Lifecycle]]
+- [[NIST 800-61 - Lifecycle Rev2 vs Rev3]]
 - [[Behavioral - Security Incident Under Pressure]]
